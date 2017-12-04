@@ -1,0 +1,15 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "Helper to quick notice php errors in terminal while developing",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "gulp": "^3.9.1"
+  }
+}

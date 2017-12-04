@@ -4,8 +4,9 @@ namespace Core;
 class Config
 {
   public $db = [
+    dialect => "mysql", 
     host => "localhost", 
-    name => "how_news", 
+    name => "hot_news", 
     username => "root", 
     password => "", 
     charset => "utf8"
@@ -37,8 +38,6 @@ class Config
     if ($this->routes === NULL) {
       throw new \Exception("Routes file cannot be parsed or contains not JSON-representation");
     }
-    echo "<pre>";
-    print_r($this->routes);
   }
   
   /**

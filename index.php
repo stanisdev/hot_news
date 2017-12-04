@@ -10,6 +10,5 @@ $config = new \Core\Config(__DIR__);
 
 $config->loadRoutes();
 
-echo "<br>";
 $router = new \Core\Router($config);
 $router->run();
